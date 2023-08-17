@@ -1,0 +1,37 @@
+/* 大标题 */
+h1 {
+    font-family: 'KaiTi';
+    letter-spacing: 5px;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    color:#FFDC4C;
+    text-shadow: 2px 1px 1px black;
+}
+
+main {
+    margin: auto 1.2em;
+    font-size: 1.5rem;
+}
+
+
+@media (min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: 2.5fr 1fr;
+        gap: 5px;
+    }
+    main {
+        margin: auto 1.2em;
+        padding: 10px 5rem;
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 5em;
+    }
+}
+
+dt {
+    font-weight: bold;
+}

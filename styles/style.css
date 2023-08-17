@@ -1,0 +1,45 @@
+/* 整体布局与基本风格 */
+body {
+    margin: 0;
+    font: 16px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}  
+/* 导航栏 */
+nav {
+    background-color: #991abc;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 4vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: .5em calc(5vw);
+}
+
+nav a:hover {
+    background-color: #6f1189;
+    color: #99e7bc;
+}
+
+nav a:active {
+    background-color: #4a015e;
+    color:#00ffff
+}
+
+footer {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    border-top: 1.2px dashed black;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>AI工具——绘画</title>
+        <link href="../styles/style.css" rel="stylesheet" >
+        <link href="../styles/aipaint.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="ChatGPT.html">ChatGPT</a></li>
+                <li><a href="">AI绘画</a></li>
+            </ul>
+        </nav>
+        <div class="optionbox">
+            <div class="inputrow">
+                <label for="prompt">prompt</label>
+                <textarea id="prompt" row="2"></textarea>
+            </div>
+            <div class="inputrow">
+                <label for="generatePicture">other</label>
+                <textarea id="generatePicture" row="2"></textarea>
+            </div>
+            <div class="inputrow">
+                <label for="select">模型</label>
+                <select id="select">
+                    <option value="modle1">模型1</option>
+                    <option value="model2">模型2</option>
+                    <option value="model3">模型3</option>
+                </select>
+            </div>
+            <button id="generatePictureButton">生成图片</button>
+        </div>
+        
+        <div class="picture">
+            <img src="../images/cyberpunk-background-3840x2160.jpg" alt="生成的图片">
+        </div>
+        <footer>
+            <address>
+                by YuChen<br/>
+                mail:17316213573@163.com
+            </address>
+        </footer>
+    </body>
+</html>

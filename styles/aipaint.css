@@ -1,0 +1,76 @@
+
+.optionbox {
+    display: block;
+    background-color: aqua;
+    font-size: 1.2em;
+    padding: .2vw 2vw;
+}
+
+.optionbox .inputrow {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+  
+.optionbox label {
+    width: 60px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.optionbox select {
+    flex: 1;
+    font: inherit;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.optionbox textarea {
+    flex: 1;
+    resize: none;
+    font: inherit;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.optionbox #generatePictureButton {
+    width: 100%;
+    font: inherit;
+    margin: 10px 0;
+    padding: 5px 0;
+    border-radius: 15px;
+    border: 1.5px solid rgb(203, 24, 203);
+    background-color: rgb(184, 115, 248);
+    color: rgb(255, 251, 13)
+}
+
+.optionbox #generatePictureButton:hover {
+    background-color: rgb(144, 40, 241);
+    color: rgb(255, 255, 79)
+}
+
+.optionbox #generatePictureButton:active {
+    background-color: rgb(114, 0, 220);
+    color: rgb(255, 247, 136)
+}   
+
+.picture {
+    margin: 20px;
+    max-width: 100%;
+    min-height: 45vh;
+    height: auto;
+}
+
+.picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 900px) {
+    .optionbox {
+        padding: .5vw 10vw;
+    }
+    .optionbox label {
+        width: 80px;
+    }
+}
